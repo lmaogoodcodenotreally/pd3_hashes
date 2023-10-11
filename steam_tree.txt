@@ -1,0 +1,518 @@
+:.
+│   PAYDAY3Client.exe
+│
+├───Engine
+│   ├───Binaries
+│   │   ├───ThirdParty
+│   │   │   ├───DbgHelp
+│   │   │   │       dbghelp.dll
+│   │   │   │
+│   │   │   ├───HLMediaLibrary
+│   │   │   │   └───Windows
+│   │   │   │       └───Release
+│   │   │   │           └───x64
+│   │   │   │                   HLMediaLibrary.dll
+│   │   │   │
+│   │   │   ├───NVIDIA
+│   │   │   │   ├───GeForceNOW
+│   │   │   │   │   └───Win64
+│   │   │   │   │           GfnRuntimeSdk.dll
+│   │   │   │   │
+│   │   │   │   └───NVaftermath
+│   │   │   │       └───Win64
+│   │   │   │               GFSDK_Aftermath_Lib.x64.dll
+│   │   │   │
+│   │   │   ├───Ogg
+│   │   │   │   └───Win64
+│   │   │   │       └───VS2015
+│   │   │   │               libogg_64.dll
+│   │   │   │
+│   │   │   ├───OpenXR
+│   │   │   │   └───win64
+│   │   │   │           openxr_loader.dll
+│   │   │   │
+│   │   │   ├───PhysX3
+│   │   │   │   └───Win64
+│   │   │   │       └───VS2015
+│   │   │   │               ApexFramework_x64.dll
+│   │   │   │               APEX_Clothing_x64.dll
+│   │   │   │               APEX_Legacy_x64.dll
+│   │   │   │               NvCloth_x64.dll
+│   │   │   │               PhysX3Common_x64.dll
+│   │   │   │               PhysX3Cooking_x64.dll
+│   │   │   │               PhysX3_x64.dll
+│   │   │   │               PxFoundation_x64.dll
+│   │   │   │               PxPvdSDK_x64.dll
+│   │   │   │
+│   │   │   ├───Steamworks
+│   │   │   │   └───Steamv151
+│   │   │   │       └───Win64
+│   │   │   │               steam_api64.dll
+│   │   │   │
+│   │   │   ├───Vorbis
+│   │   │   │   └───Win64
+│   │   │   │       └───VS2015
+│   │   │   │               libvorbisfile_64.dll
+│   │   │   │               libvorbis_64.dll
+│   │   │   │
+│   │   │   └───Windows
+│   │   │       └───XAudio2_9
+│   │   │           └───x64
+│   │   │                   xaudio2_9redist.dll
+│   │   │
+│   │   └───Win64
+│   │           CrashReportClient.exe
+│   │
+│   ├───Content
+│   │   └───SlateDebug
+│   │       └───Fonts
+│   │               LastResort.tps
+│   │               LastResort.ttf
+│   │
+│   ├───Plugins
+│   │   ├───Runtime
+│   │   │   └───Nvidia
+│   │   │       ├───DLSS
+│   │   │       │   └───Binaries
+│   │   │       │       └───ThirdParty
+│   │   │       │           └───Win64
+│   │   │       │                   nvngx_dlss.dll
+│   │   │       │
+│   │   │       └───Streamline
+│   │   │           └───Binaries
+│   │   │               └───ThirdParty
+│   │   │                   └───Win64
+│   │   │                           nvngx_dlssg.dll
+│   │   │                           sl.common.dll
+│   │   │                           sl.dlss_g.dll
+│   │   │                           sl.interposer.dll
+│   │   │                           sl.reflex.dll
+│   │   │
+│   │   └───Wwise
+│   │       └───ThirdParty
+│   │           └───x64_vc160
+│   │               └───Release
+│   │                   └───bin
+│   │                           AkAudioInput.dll
+│   │                           AkCompressor.dll
+│   │                           AkConvolutionReverb.dll
+│   │                           AkDelay.dll
+│   │                           AkExpander.dll
+│   │                           AkFlanger.dll
+│   │                           AkGain.dll
+│   │                           AkGuitarDistortion.dll
+│   │                           AkHarmonizer.dll
+│   │                           AkImpacter.dll
+│   │                           AkMatrixReverb.dll
+│   │                           AkMotion.dll
+│   │                           AkParametricEQ.dll
+│   │                           AkPeakLimiter.dll
+│   │                           AkPitchShifter.dll
+│   │                           AkRecorder.dll
+│   │                           AkReflect.dll
+│   │                           AkRoomVerb.dll
+│   │                           AkRouterMixer.dll
+│   │                           AkSilenceGenerator.dll
+│   │                           AkSineTone.dll
+│   │                           AkSoundEngineDLL.dll
+│   │                           AkSoundSeedAir.dll
+│   │                           AkSoundSeedGrain.dll
+│   │                           AkSoundSeedImpact.dll
+│   │                           AkStereoDelay.dll
+│   │                           AkSynthOne.dll
+│   │                           AkTimeStretch.dll
+│   │                           AkToneGen.dll
+│   │                           AkTremolo.dll
+│   │                           ASIO.dll
+│   │                           Auro.dll
+│   │                           CrankcaseAudioREVModelPlayer.dll
+│   │                           gmesdk.dll
+│   │                           IgniterLive.dll
+│   │                           iZotope.dll
+│   │                           MasteringSuite.dll
+│   │                           McDSP.dll
+│   │                           MSSpatial.dll
+│   │                           ResonanceAudio.dll
+│   │                           TencentGME.dll
+│   │
+│   └───Programs
+│       └───CrashReportClient
+│           └───Content
+│               └───Paks
+│                       CrashReportClient.pak
+│
+└───PAYDAY3
+    ├───Binaries
+    │   └───Win64
+    │           EOSSDK-Win64-Shipping.dll
+    │           libScePad.dll
+    │           OpenImageDenoise.dll
+    │           PAYDAY3Client-Win64-Shipping.exe
+    │           tbb12.dll
+    │
+    └───Content
+        ├───Movies
+        │   │   BG_LoginVideo_01.bk2
+        │   │   Fullscreen_VideoPlayer.uasset
+        │   │   Fullscreen_VideoTexture.uasset
+        │   │   LoadingScreen.bk2
+        │   │   LoginBackground_BinkMediaPlayer.uasset
+        │   │   LoginBackground_BinkMediaPlayer_Video.uasset
+        │   │   LoginBackground_BinkMediaPlayer_Video_Mat.uasset
+        │   │   PD3_SplashScreen_01_intro.mp4
+        │   │   SingleFrame.uasset
+        │   │   StartUp_DeepSilver.bk2
+        │   │   StartUp_SBZ.bk2
+        │   │   StartUp_Unreal.bk2
+        │   │
+        │   ├───Heists
+        │   │       HeistBG_ArmoredTransport.bk2
+        │   │       HeistBG_ArmoredTransport.uasset
+        │   │       HeistBG_ArtGallery.bk2
+        │   │       HeistBG_ArtGallery.uasset
+        │   │       HeistBG_BranchBank.bk2
+        │   │       HeistBG_BranchBank.uasset
+        │   │       HeistBG_CargoDock.bk2
+        │   │       HeistBG_CargoDock.uasset
+        │   │       HeistBG_GoldenShark.bk2
+        │   │       HeistBG_GoldenShark.uasset
+        │   │       HeistBG_JewelryStore.bk2
+        │   │       HeistBG_JewelryStore.uasset
+        │   │       HeistBG_NightClub.bk2
+        │   │       HeistBG_NightClub.uasset
+        │   │       HeistBG_Penthouse.bk2
+        │   │       HeistBG_Penthouse.uasset
+        │   │
+        │   └───StoryMode
+        │           StoryMode_Cinematic_01.bk2
+        │           StoryMode_Cinematic_01_de.srt
+        │           StoryMode_Cinematic_01_en.srt
+        │           StoryMode_Cinematic_01_es-419.srt
+        │           StoryMode_Cinematic_01_es-ES.srt
+        │           StoryMode_Cinematic_01_fr.srt
+        │           StoryMode_Cinematic_01_it.srt
+        │           StoryMode_Cinematic_01_ja.srt
+        │           StoryMode_Cinematic_01_ko.srt
+        │           StoryMode_Cinematic_01_pl.srt
+        │           StoryMode_Cinematic_01_pt.srt
+        │           StoryMode_Cinematic_01_ru.srt
+        │           StoryMode_Cinematic_01_tr.srt
+        │           StoryMode_Cinematic_01_zh-Hans.srt
+        │           StoryMode_Cinematic_01_zh-Hant.srt
+        │           StoryMode_Cinematic_02.bk2
+        │           StoryMode_Cinematic_02_de.srt
+        │           StoryMode_Cinematic_02_en.srt
+        │           StoryMode_Cinematic_02_es-419.srt
+        │           StoryMode_Cinematic_02_es-ES.srt
+        │           StoryMode_Cinematic_02_fr.srt
+        │           StoryMode_Cinematic_02_it.srt
+        │           StoryMode_Cinematic_02_ja.srt
+        │           StoryMode_Cinematic_02_ko.srt
+        │           StoryMode_Cinematic_02_pl.srt
+        │           StoryMode_Cinematic_02_pt.srt
+        │           StoryMode_Cinematic_02_ru.srt
+        │           StoryMode_Cinematic_02_tr.srt
+        │           StoryMode_Cinematic_02_zh-Hans.srt
+        │           StoryMode_Cinematic_02_zh-Hant.srt
+        │           StoryMode_Cinematic_03.bk2
+        │           StoryMode_Cinematic_03_de.srt
+        │           StoryMode_Cinematic_03_en.srt
+        │           StoryMode_Cinematic_03_es-419.srt
+        │           StoryMode_Cinematic_03_es-ES.srt
+        │           StoryMode_Cinematic_03_fr.srt
+        │           StoryMode_Cinematic_03_it.srt
+        │           StoryMode_Cinematic_03_ja.srt
+        │           StoryMode_Cinematic_03_ko.srt
+        │           StoryMode_Cinematic_03_pl.srt
+        │           StoryMode_Cinematic_03_pt.srt
+        │           StoryMode_Cinematic_03_ru.srt
+        │           StoryMode_Cinematic_03_tr.srt
+        │           StoryMode_Cinematic_03_zh-Hans.srt
+        │           StoryMode_Cinematic_03_zh-Hant.srt
+        │           StoryMode_Cinematic_04.bk2
+        │           StoryMode_Cinematic_04_de.srt
+        │           StoryMode_Cinematic_04_en.srt
+        │           StoryMode_Cinematic_04_es-419.srt
+        │           StoryMode_Cinematic_04_es-ES.srt
+        │           StoryMode_Cinematic_04_fr.srt
+        │           StoryMode_Cinematic_04_it.srt
+        │           StoryMode_Cinematic_04_ja.srt
+        │           StoryMode_Cinematic_04_ko.srt
+        │           StoryMode_Cinematic_04_pl.srt
+        │           StoryMode_Cinematic_04_pt.srt
+        │           StoryMode_Cinematic_04_ru.srt
+        │           StoryMode_Cinematic_04_tr.srt
+        │           StoryMode_Cinematic_04_zh-Hans.srt
+        │           StoryMode_Cinematic_04_zh-Hant.srt
+        │           StoryMode_Cinematic_05.bk2
+        │           StoryMode_Cinematic_05_de.srt
+        │           StoryMode_Cinematic_05_en.srt
+        │           StoryMode_Cinematic_05_es-419.srt
+        │           StoryMode_Cinematic_05_es-ES.srt
+        │           StoryMode_Cinematic_05_fr.srt
+        │           StoryMode_Cinematic_05_it.srt
+        │           StoryMode_Cinematic_05_ja.srt
+        │           StoryMode_Cinematic_05_ko.srt
+        │           StoryMode_Cinematic_05_pl.srt
+        │           StoryMode_Cinematic_05_pt.srt
+        │           StoryMode_Cinematic_05_ru.srt
+        │           StoryMode_Cinematic_05_tr.srt
+        │           StoryMode_Cinematic_05_zh-Hans.srt
+        │           StoryMode_Cinematic_05_zh-Hant.srt
+        │           StoryMode_Cinematic_06.bk2
+        │           StoryMode_Cinematic_06_de.srt
+        │           StoryMode_Cinematic_06_en.srt
+        │           StoryMode_Cinematic_06_es-419.srt
+        │           StoryMode_Cinematic_06_es-ES.srt
+        │           StoryMode_Cinematic_06_fr.srt
+        │           StoryMode_Cinematic_06_it.srt
+        │           StoryMode_Cinematic_06_ja.srt
+        │           StoryMode_Cinematic_06_ko.srt
+        │           StoryMode_Cinematic_06_pl.srt
+        │           StoryMode_Cinematic_06_pt.srt
+        │           StoryMode_Cinematic_06_ru.srt
+        │           StoryMode_Cinematic_06_tr.srt
+        │           StoryMode_Cinematic_06_zh-Hans.srt
+        │           StoryMode_Cinematic_06_zh-Hant.srt
+        │           StoryMode_Cinematic_07.bk2
+        │           StoryMode_Cinematic_07_de.srt
+        │           StoryMode_Cinematic_07_en.srt
+        │           StoryMode_Cinematic_07_es-419.srt
+        │           StoryMode_Cinematic_07_es-ES.srt
+        │           StoryMode_Cinematic_07_fr.srt
+        │           StoryMode_Cinematic_07_it.srt
+        │           StoryMode_Cinematic_07_ja.srt
+        │           StoryMode_Cinematic_07_ko.srt
+        │           StoryMode_Cinematic_07_pl.srt
+        │           StoryMode_Cinematic_07_pt.srt
+        │           StoryMode_Cinematic_07_ru.srt
+        │           StoryMode_Cinematic_07_tr.srt
+        │           StoryMode_Cinematic_07_zh-Hans.srt
+        │           StoryMode_Cinematic_07_zh-Hant.srt
+        │           StoryMode_Cinematic_08.bk2
+        │           StoryMode_Cinematic_08_de.srt
+        │           StoryMode_Cinematic_08_en.srt
+        │           StoryMode_Cinematic_08_es-419.srt
+        │           StoryMode_Cinematic_08_es-ES.srt
+        │           StoryMode_Cinematic_08_fr.srt
+        │           StoryMode_Cinematic_08_it.srt
+        │           StoryMode_Cinematic_08_ja.srt
+        │           StoryMode_Cinematic_08_ko.srt
+        │           StoryMode_Cinematic_08_pl.srt
+        │           StoryMode_Cinematic_08_pt.srt
+        │           StoryMode_Cinematic_08_ru.srt
+        │           StoryMode_Cinematic_08_tr.srt
+        │           StoryMode_Cinematic_08_zh-Hans.srt
+        │           StoryMode_Cinematic_08_zh-Hant.srt
+        │           StoryMode_Cinematic_09.bk2
+        │           StoryMode_Cinematic_09_de.srt
+        │           StoryMode_Cinematic_09_en.srt
+        │           StoryMode_Cinematic_09_es-419.srt
+        │           StoryMode_Cinematic_09_es-ES.srt
+        │           StoryMode_Cinematic_09_fr.srt
+        │           StoryMode_Cinematic_09_it.srt
+        │           StoryMode_Cinematic_09_ja.srt
+        │           StoryMode_Cinematic_09_ko.srt
+        │           StoryMode_Cinematic_09_pl.srt
+        │           StoryMode_Cinematic_09_pt.srt
+        │           StoryMode_Cinematic_09_ru.srt
+        │           StoryMode_Cinematic_09_tr.srt
+        │           StoryMode_Cinematic_09_zh-Hans.srt
+        │           StoryMode_Cinematic_09_zh-Hant.srt
+        │           StoryMode_Cinematic_10.bk2
+        │           StoryMode_Cinematic_10_de.srt
+        │           StoryMode_Cinematic_10_en.srt
+        │           StoryMode_Cinematic_10_es-419.srt
+        │           StoryMode_Cinematic_10_es-ES.srt
+        │           StoryMode_Cinematic_10_fr.srt
+        │           StoryMode_Cinematic_10_it.srt
+        │           StoryMode_Cinematic_10_ja.srt
+        │           StoryMode_Cinematic_10_ko.srt
+        │           StoryMode_Cinematic_10_pl.srt
+        │           StoryMode_Cinematic_10_pt.srt
+        │           StoryMode_Cinematic_10_ru.srt
+        │           StoryMode_Cinematic_10_tr.srt
+        │           StoryMode_Cinematic_10_zh-Hans.srt
+        │           StoryMode_Cinematic_10_zh-Hant.srt
+        │           StoryMode_Cinematic_11.bk2
+        │           StoryMode_Cinematic_11_de.srt
+        │           StoryMode_Cinematic_11_en.srt
+        │           StoryMode_Cinematic_11_es-419.srt
+        │           StoryMode_Cinematic_11_es-ES.srt
+        │           StoryMode_Cinematic_11_fr.srt
+        │           StoryMode_Cinematic_11_it.srt
+        │           StoryMode_Cinematic_11_ja.srt
+        │           StoryMode_Cinematic_11_ko.srt
+        │           StoryMode_Cinematic_11_pl.srt
+        │           StoryMode_Cinematic_11_pt.srt
+        │           StoryMode_Cinematic_11_ru.srt
+        │           StoryMode_Cinematic_11_tr.srt
+        │           StoryMode_Cinematic_11_zh-Hans.srt
+        │           StoryMode_Cinematic_11_zh-Hant.srt
+        │           StoryMode_Cinematic_12.bk2
+        │           StoryMode_Cinematic_12_de.srt
+        │           StoryMode_Cinematic_12_en.srt
+        │           StoryMode_Cinematic_12_es-419.srt
+        │           StoryMode_Cinematic_12_es-ES.srt
+        │           StoryMode_Cinematic_12_fr.srt
+        │           StoryMode_Cinematic_12_it.srt
+        │           StoryMode_Cinematic_12_ja.srt
+        │           StoryMode_Cinematic_12_ko.srt
+        │           StoryMode_Cinematic_12_pl.srt
+        │           StoryMode_Cinematic_12_pt.srt
+        │           StoryMode_Cinematic_12_ru.srt
+        │           StoryMode_Cinematic_12_tr.srt
+        │           StoryMode_Cinematic_12_zh-Hans.srt
+        │           StoryMode_Cinematic_12_zh-Hant.srt
+        │           StoryMode_Cinematic_13.bk2
+        │           StoryMode_Cinematic_13_de.srt
+        │           StoryMode_Cinematic_13_en.srt
+        │           StoryMode_Cinematic_13_es-419.srt
+        │           StoryMode_Cinematic_13_es-ES.srt
+        │           StoryMode_Cinematic_13_fr.srt
+        │           StoryMode_Cinematic_13_it.srt
+        │           StoryMode_Cinematic_13_ja.srt
+        │           StoryMode_Cinematic_13_ko.srt
+        │           StoryMode_Cinematic_13_pl.srt
+        │           StoryMode_Cinematic_13_pt.srt
+        │           StoryMode_Cinematic_13_ru.srt
+        │           StoryMode_Cinematic_13_tr.srt
+        │           StoryMode_Cinematic_13_zh-Hans.srt
+        │           StoryMode_Cinematic_13_zh-Hant.srt
+        │           StoryMode_Cinematic_14.bk2
+        │           StoryMode_Cinematic_14_de.srt
+        │           StoryMode_Cinematic_14_en.srt
+        │           StoryMode_Cinematic_14_es-419.srt
+        │           StoryMode_Cinematic_14_es-ES.srt
+        │           StoryMode_Cinematic_14_fr.srt
+        │           StoryMode_Cinematic_14_it.srt
+        │           StoryMode_Cinematic_14_ja.srt
+        │           StoryMode_Cinematic_14_ko.srt
+        │           StoryMode_Cinematic_14_pl.srt
+        │           StoryMode_Cinematic_14_pt.srt
+        │           StoryMode_Cinematic_14_ru.srt
+        │           StoryMode_Cinematic_14_tr.srt
+        │           StoryMode_Cinematic_14_zh-Hans.srt
+        │           StoryMode_Cinematic_14_zh-Hant.srt
+        │           StoryMode_Cinematic_15.bk2
+        │           StoryMode_Cinematic_15_de.srt
+        │           StoryMode_Cinematic_15_en.srt
+        │           StoryMode_Cinematic_15_es-419.srt
+        │           StoryMode_Cinematic_15_es-ES.srt
+        │           StoryMode_Cinematic_15_fr.srt
+        │           StoryMode_Cinematic_15_it.srt
+        │           StoryMode_Cinematic_15_ja.srt
+        │           StoryMode_Cinematic_15_ko.srt
+        │           StoryMode_Cinematic_15_pl.srt
+        │           StoryMode_Cinematic_15_pt.srt
+        │           StoryMode_Cinematic_15_ru.srt
+        │           StoryMode_Cinematic_15_tr.srt
+        │           StoryMode_Cinematic_15_zh-Hans.srt
+        │           StoryMode_Cinematic_15_zh-Hant.srt
+        │           StoryMode_Cinematic_16.bk2
+        │           StoryMode_Cinematic_16_de.srt
+        │           StoryMode_Cinematic_16_en.srt
+        │           StoryMode_Cinematic_16_es-419.srt
+        │           StoryMode_Cinematic_16_es-ES.srt
+        │           StoryMode_Cinematic_16_fr.srt
+        │           StoryMode_Cinematic_16_it.srt
+        │           StoryMode_Cinematic_16_ja.srt
+        │           StoryMode_Cinematic_16_ko.srt
+        │           StoryMode_Cinematic_16_pl.srt
+        │           StoryMode_Cinematic_16_pt.srt
+        │           StoryMode_Cinematic_16_ru.srt
+        │           StoryMode_Cinematic_16_tr.srt
+        │           StoryMode_Cinematic_16_zh-Hans.srt
+        │           StoryMode_Cinematic_16_zh-Hant.srt
+        │
+        └───Paks
+                pakchunk0-PAK_AssaultRifles-WindowsClient.pak
+                pakchunk0-PAK_AssaultRifles-WindowsClient.sig
+                pakchunk0-PAK_Chains2-WindowsClient.pak
+                pakchunk0-PAK_Chains2-WindowsClient.sig
+                pakchunk0-PAK_Characters-WindowsClient.pak
+                pakchunk0-PAK_Characters-WindowsClient.sig
+                pakchunk0-PAK_Charms-WindowsClient.pak
+                pakchunk0-PAK_Charms-WindowsClient.sig
+                pakchunk0-PAK_Civilians-WindowsClient.pak
+                pakchunk0-PAK_Civilians-WindowsClient.sig
+                pakchunk0-PAK_Cops-WindowsClient.pak
+                pakchunk0-PAK_Cops-WindowsClient.sig
+                pakchunk0-PAK_Dallas-WindowsClient.pak
+                pakchunk0-PAK_Dallas-WindowsClient.sig
+                pakchunk0-PAK_Datatables-WindowsClient.pak
+                pakchunk0-PAK_Datatables-WindowsClient.sig
+                pakchunk0-PAK_Gloves-WindowsClient.pak
+                pakchunk0-PAK_Gloves-WindowsClient.sig
+                pakchunk0-PAK_Hoxton-WindowsClient.pak
+                pakchunk0-PAK_Hoxton-WindowsClient.sig
+                pakchunk0-PAK_Joy-WindowsClient.pak
+                pakchunk0-PAK_Joy-WindowsClient.sig
+                pakchunk0-PAK_LevelBase2-WindowsClient.pak
+                pakchunk0-PAK_LevelBase2-WindowsClient.sig
+                pakchunk0-PAK_MainMenu-WindowsClient.pak
+                pakchunk0-PAK_MainMenu-WindowsClient.sig
+                pakchunk0-PAK_Marksman-WindowsClient.pak
+                pakchunk0-PAK_Marksman-WindowsClient.sig
+                pakchunk0-PAK_Masks-WindowsClient.pak
+                pakchunk0-PAK_Masks-WindowsClient.sig
+                pakchunk0-PAK_Misc-WindowsClient.pak
+                pakchunk0-PAK_Misc-WindowsClient.sig
+                pakchunk0-PAK_NPCs-WindowsClient.pak
+                pakchunk0-PAK_NPCs-WindowsClient.sig
+                pakchunk0-PAK_OVK-WindowsClient.pak
+                pakchunk0-PAK_OVK-WindowsClient.sig
+                pakchunk0-PAK_Pearl-WindowsClient.pak
+                pakchunk0-PAK_Pearl-WindowsClient.sig
+                pakchunk0-PAK_PIstol-WindowsClient.pak
+                pakchunk0-PAK_PIstol-WindowsClient.sig
+                pakchunk0-PAK_Players-WindowsClient.pak
+                pakchunk0-PAK_Players-WindowsClient.sig
+                pakchunk0-PAK_Revolver-WindowsClient.pak
+                pakchunk0-PAK_Revolver-WindowsClient.sig
+                pakchunk0-PAK_SafeHouse-WindowsClient.pak
+                pakchunk0-PAK_SafeHouse-WindowsClient.sig
+                pakchunk0-PAK_Shotguns-WindowsClient.pak
+                pakchunk0-PAK_Shotguns-WindowsClient.sig
+                pakchunk0-PAK_SMG-WindowsClient.pak
+                pakchunk0-PAK_SMG-WindowsClient.sig
+                pakchunk0-PAK_Stickers-WindowsClient.pak
+                pakchunk0-PAK_Stickers-WindowsClient.sig
+                pakchunk0-PAK_Suits-WindowsClient.pak
+                pakchunk0-PAK_Suits-WindowsClient.sig
+                pakchunk0-PAK_Suitsoptional-WindowsClient.pak
+                pakchunk0-PAK_Suitsoptional-WindowsClient.sig
+                pakchunk0-PAK_Throwable-WindowsClient.pak
+                pakchunk0-PAK_Throwable-WindowsClient.sig
+                pakchunk0-PAK_Tutorials-WindowsClient.pak
+                pakchunk0-PAK_Tutorials-WindowsClient.sig
+                pakchunk0-PAK_Unreferenced-WindowsClient.pak
+                pakchunk0-PAK_Unreferenced-WindowsClient.sig
+                pakchunk0-PAK_Vehicles-WindowsClient.pak
+                pakchunk0-PAK_Vehicles-WindowsClient.sig
+                pakchunk0-PAK_Weapons-WindowsClient.pak
+                pakchunk0-PAK_Weapons-WindowsClient.sig
+                pakchunk0-PAK_Wolf-WindowsClient.pak
+                pakchunk0-PAK_Wolf-WindowsClient.sig
+                pakchunk0-PAK_Wolfoptional-WindowsClient.pak
+                pakchunk0-PAK_Wolfoptional-WindowsClient.sig
+                pakchunk0-PAK___Default-WindowsClient.pak
+                pakchunk0-PAK___Default-WindowsClient.sig
+                pakchunk10-PAK_NightClub-WindowsClient.pak
+                pakchunk10-PAK_NightClub-WindowsClient.sig
+                pakchunk11-PAK_Penthouse-WindowsClient.pak
+                pakchunk11-PAK_Penthouse-WindowsClient.sig
+                pakchunk12-PAK_Transport-WindowsClient.pak
+                pakchunk12-PAK_Transport-WindowsClient.sig
+                pakchunk13-PAK_FirstPlayable-WindowsClient.pak
+                pakchunk13-PAK_FirstPlayable-WindowsClient.sig
+                pakchunk4-PAK_Heists-WindowsClient.pak
+                pakchunk4-PAK_Heists-WindowsClient.sig
+                pakchunk5-PAK_BranchBank-WindowsClient.pak
+                pakchunk5-PAK_BranchBank-WindowsClient.sig
+                pakchunk6-PAK_JewelryStore-WindowsClient.pak
+                pakchunk6-PAK_JewelryStore-WindowsClient.sig
+                pakchunk7-PAK_ArtGallery2-WindowsClient.pak
+                pakchunk7-PAK_ArtGallery2-WindowsClient.sig
+                pakchunk9-PAK_CargoDock-WindowsClient.pak
+                pakchunk9-PAK_CargoDock-WindowsClient.sig
