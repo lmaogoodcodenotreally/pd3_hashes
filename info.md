@@ -22,7 +22,7 @@
 
 > [!warning]
 > ! = Low effect for others, not harmful
-> !!!!! = bro patch this shh
+> | !!!!! = bro patch this shh
 
 
 
