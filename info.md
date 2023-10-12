@@ -18,6 +18,14 @@
 
 # Vulnerabilities
 
+
+
+> [!warning]
+> ! = Low effect for others, not harmful
+> !!!!! = bro patch this shh
+
+
+
 | Name | Version | Type | Gravity | 
 |----------|----------|----------|----------|
 | API EXPLOIT | 1.0.0.0.624677 | API | !!!!! |
@@ -32,7 +40,5 @@
 ⠀
 
 ⠀
-> [!warning]
-> ! = Low effect for others, not harmful
-> !!!!! = bro patch this shh
+
 
