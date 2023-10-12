@@ -21,8 +21,7 @@
 
 
 > [!warning]
-> ! = Low effect for others, not harmful
-> | !!!!! = bro patch this shh
+> Gravity = how bad exploit is
 
 
 
