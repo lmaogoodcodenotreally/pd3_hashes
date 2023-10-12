@@ -15,3 +15,13 @@
 
 ⠀
 ⠀
+
+# Vulnerabilities
+
+| Name | Version | Type | Gravity | 
+|----------|----------|----------|----------|
+| API EXPLOIT | 1.0.0.0.624677 | API issue | !!!!! |
+| No-Clip | 1.0.0.0.624677 | GameEngine Issue | !! |
+| SpeedHack | 1.0.0.0.624677 | GameEngine Issue | !! |
+| Instant LockPick | 1.0.0.0.624677 | unused .sig issue | !! |
+| Jump w/o mask | 1.0.0.0.624677 | unused .sig issue | !! |
