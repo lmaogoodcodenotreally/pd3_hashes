@@ -450,7 +450,6 @@
     │           │   pakchunk7-PAK_ArtGallery2-WinGDK.sig
     │           │   pakchunk9-PAK_CargoDock-WinGDK.pak
     │           │   pakchunk9-PAK_CargoDock-WinGDK.sig
-    │           │   ~mods.7z
     │           
     │
     └───Resources
