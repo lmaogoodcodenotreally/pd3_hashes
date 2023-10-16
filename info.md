@@ -15,6 +15,10 @@
 
 ⠀
 ⠀
+# Engine Version
+
+> EngineVer: 4.27.2-0+++UE4+Release-4.27
+⠀
 
 # Vulnerabilities
 
