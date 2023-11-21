@@ -37,9 +37,9 @@ EngineVer: 4.27.2-0+++UE4+Release-4.27
 | Name | Version | Type | Gravity | 
 |----------|----------|----------|----------|
 | API EXPLOIT | 1.0.0.0.624677 | API | !!!!! |
-| Server Crash EXPLOIT | 1.0.0.0.624677 | API | !!!! |
-| Player Crash EXPLOIT | 1.0.0.0.624677 | API | !!!! |
-| Server Freeze EXPLOIT | 1.0.0.0.624677 | API | !!!! |
+| Server Crash EXPLOIT | 1.0.0.0.624677 | GameEngine | !!!! |
+| Player Crash EXPLOIT | 1.0.0.0.624677 | GameEngine | !!!! |
+| Server Freeze EXPLOIT | 1.0.0.0.624677 | GameEngine+API | !!!! |
 | No-Clip | 1.0.0.0.624677 | GameEngine | ! |
 | SpeedHack | 1.0.0.0.624677 | GameEngine | ! |
 | Instant LockPick | 1.0.0.0.624677 | unused .sig | ! |
