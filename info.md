@@ -36,16 +36,19 @@ EngineVer: 4.27.2-0+++UE4+Release-4.27
 
 | Name | Version | Type | Gravity | Author & Explainations
 |----------|----------|----------|----------|----------|
-| API EXPLOIT | 1.0.0.0.624677 | API | !!!!! | No Credits, Public |
-| Server Crash EXPLOIT | 1.0.0.0.624677 | GameEngine | !!!! | Found & made by **discord:6_6_7** (From PlayerCrasher) |
-| Player Crash EXPLOIT | 1.0.0.0.624677 | GameEngine | !!!! | Found & made by **discord:6_6_7** (Fix your shit yourself wont tell you) |
-| Server Freeze EXPLOIT | 1.0.0.0.624677 | GameEngine + API | !!!! | Found & made **by discord:6_6_7**, using an old public UE4 Exploit |
-| No-Clip | 1.0.0.0.624677 | GameEngine | ! | Found and exploit made by **Thorami** on launch week |
-| SpeedHack | 1.0.0.0.624677 | GameEngine | ! | Default **CE** speedhack, nice AC |
-| Instant LockPick | 1.0.0.0.624677 | unused .sig | ! | **UnknownCheats** don't remember who |
-| Jump w/o mask | 1.0.0.0.624677 | unused .sig | ! | **UnknownCheats** don't remember who |
-
-
+| API EXPLOIT | 1.0.0.0.624677 | **API** | !!!!! | No Credits, Public |
+| Server Crash EXPLOIT | 1.0.0.0.624677 | **GameEngine** | !!!! | Found & made by **discord:6_6_7** (From PlayerCrasher) |
+| Player Crash EXPLOIT | 1.0.0.0.624677 | **GameEngine** | !!!! | Found & made by **discord:6_6_7** (Fix your shit yourself wont tell you) |
+| Server Freeze EXPLOIT | 1.0.0.0.624677 | **GameEngine + API** | !!!! | Found & made **by discord:6_6_7**, using an old public UE4 Exploit |
+| No-Clip | 1.0.0.0.624677 | **GameEngine** | ! | Found and exploit made by **Thorami** on launch week |
+| SpeedHack | 1.0.0.0.624677 | **GameEngine** | ! | Default **CE** speedhack, nice AC |
+| InfiniteAmmo [broken] | 1.0.0.0.624677 | **Assembly** | ! | **UnknownCheats** don't remember who |
+| WeirdArmorGlitch | 1.0.0.0.624677 | **unused .sig** | ! | **UnknownCheats** don't remember who |
+| Instant LockPick | 1.0.0.0.624677 | **unused .sig** | ! | **UnknownCheats** don't remember who |
+| Jump w/o mask | 1.0.0.0.624677 | **unused .sig** | ! | **UnknownCheats** don't remember who |
+| Aimbot | 1.0.0.0.624677 | **unused .sig** | ! | **UnknownCheats** don't remember who |
+| MagicBullet | 1.0.0.0.624677 | **unused .sig** | ! | **UnknownCheats** don't remember who |
+| NoRecoil | 1.0.0.0.624677 | **unused .sig** | ! | **UnknownCheats** don't remember who |
 
 
 ⠀
