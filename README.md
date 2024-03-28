@@ -1,0 +1,1 @@
+# Discontinued because I lost interest in booting this game up, even for finding exploit / having fun, this game is trash & boring. They still didn't patch 3 crashes exploits as of today, no point to find newer exploits. 
